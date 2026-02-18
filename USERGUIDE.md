@@ -17,7 +17,7 @@ By linking Revit to **Notepad++**, we gain:
 
 ### **1\. The Open Notepad++ Button**
 
-![Screenshot of pyMAW Notepad++ ribbon](/images/toolbar.png)\
+![Screenshot of pyMAW Notepad++ ribbon](/images/notepadpp.png)\
 Located on the **pyMAW** tab, the primary Notepad++ button simply opens Notepad++, shift-click to configure the location of Notepad++.
 
 ### **2\. The Notepad++ Open Tools**
@@ -37,7 +37,7 @@ Cache exports create draft batch scripts you can use to work with these files. T
 
 ### **4\. Dynamo Python Extraction**
 
-![Screenshot of pyMAW Notepad++ ribbon](/images/dynamo.png)\
+![Screenshot of pyMAW Notepad++ ribbon](/images/dynamobutton.png)\
 Extracts the Python scripts from any Dynamo graph you have. This overcomes the limitation of only having one Dynamo graph open at a time, for 
 example when you know that you have written a similar one before. By opening the scripts in Notepad++ you can copy and paste without closing 
 the graph in Dynamo. Better still if you download the excellent aussieBIMguru or Sol Amour Dynamo libraries then all that embedded Python 
@@ -49,7 +49,7 @@ To get the most out of this extension, we recommend installing the companion Not
 
 ## **Workflow Example: Bulk Editing a Type Catalog**
 
-![Screenshot of pyMAW Notepad++ ribbon](/images/workflow.png)\
+![Workflow diagram](/images/workflow.png)\
 1. Open your complex Revit family.  
 2. Use **pyMAW \> Export \> Export Family Parameters**.  
 3. In Notepad++, use **Plugins \> PythonScript \> Scripts \> RevitFormulasForEverydayUse** to add a formula to select the max value from 4 parameters
